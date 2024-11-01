@@ -63,7 +63,7 @@ export default function Component() {
         "description": "A MERN stack web application that tracks user health activities such as workouts and steps, providing personalized exercise and diet recommendations using machine learning for improved fitness outcomes.",
         "longDescription": "Developed using the MERN stack, OnlyFIT is a fitness tracker designed to monitor and log user activities, including workouts and daily step counts. The application leverages machine learning algorithms to offer tailored fitness and dietary suggestions, aiming to optimize user health and wellness. Features include real-time tracking, custom recommendations, and comprehensive analytics.",
         "tech": ["MongoDB", "Express.js", "React", "Node.js", "Machine Learning"],
-      image: './Capte.jpg',
+      image: '/Capte.jpg',
       demoUrl: 'https://demo.example.com',
       githubUrl: 'https://github.com/SpaceCadet2308/Fitness_tracker',
       featured: true
@@ -249,7 +249,7 @@ export default function Component() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-violet-600 to-purple-600 blur-3xl opacity-20 animate-pulse" />
                 <div className="relative w-full h-full">
                   <Image
-                    src="./profilepic.jpg"
+                    src="/profilepic.jpg"
                     alt="Profile"
                     fill
                     className="rounded-full object-cover"
